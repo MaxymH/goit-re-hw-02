@@ -1,11 +1,11 @@
-import Button from "./Button/Button";
 
+import Feedback from "./Feedback";
 
 
 export const App = () => {
   return (
-    <Button 
-      value = {45}
+    <Feedback
+      
     />
   );
 };
