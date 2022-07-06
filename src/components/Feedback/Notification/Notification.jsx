@@ -8,9 +8,6 @@ const Notification = ({ message }) => {
     );
 };
 
-Notification.defaultProps = {
-    message: '',
-};
 
 Notification.propTypes = {
     message: PropTypes.string.isRequired,

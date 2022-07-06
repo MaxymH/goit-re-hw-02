@@ -10,9 +10,6 @@ const Section = ({ title, children }) => {
         </div>
     );
 };
-Section.defaultProps = {
-    title: '',
-};
 Section.propTypes = {
     title: PropTypes.string.isRequired,
 };
